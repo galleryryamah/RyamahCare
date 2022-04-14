@@ -1,0 +1,324 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.navbar {
+  padding: 1.5rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00FF7F;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #00FF7F;
+}
+
+.top-link {
+  margin: 0 20px;
+  color: #fff;
+}
+
+.top-btn {
+  color: #fff;
+  background-color: #00FF7F;
+  border-color: #00FF7F;
+}
+.mid-btn {
+  color: #fff;
+  background-color: #FFC0CB;
+  border-color: #FFC0CB;
+}
+.bot-btn {
+  color: #fff;
+  background-color: #DA70D6;
+  border-color: #DA70D6;
+}
+.bwh-btn {
+  color: #fff;
+  background-color: #F08080;
+  border-color: #F08080;
+}
+.ats-btn {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 78px;
+  min-height: calc(100vh - 78px);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.story {
+  background-color: #FFE4E1;
+  color: #fff;
+  min-height: 550px;
+  padding-top: 78px;
+}
+
+h2 {
+  color: #8B4513;
+  font-size: 2.4rem;
+}
+
+
+
+.offers {
+  background-color: #111;
+  min-height: 350px;
+  padding-top: 78px;
+}
+
+.offer {
+  display: flex;
+  align-items: center;
+}
+
+.offers h3 {
+  text-align: center;
+  color: #00FF7F;
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+
+
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 20px 200px;
+  position: absolute;
+  /* bottom: 8px; */
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+.footer {
+  position: relative;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.9) 50%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url("../images/about/footer-background.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  min-height: 430px;
+  padding-top: 78px;
+}
+
+#footer-logo {
+  width: 40%;
+}
+
+.info img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.info {
+  padding: 10px 0;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+footer h3,
+.time,
+#bottom {
+  color: #00FF7F;
+}
+
+.social-icon {
+  width: 30px;
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .team {
+    min-height: 510px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link,
+  .top-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo-link {
+    z-index: 1;
+  }
+
+  #logo {
+    width: 100px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-color: #00FF7F !important;
+  }
+
+  .navbar-light .navbar-toggler-icon.nav-toggler-alt {
+    background-color: transparent !important;
+  }
+
+  .navbar-light .navbar-toggler {
+    outline: none;
+  }
+
+  .show-nav {
+    top: 0;
+    padding-top: 78px;
+    background-color: #065151;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+
+  .story p {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .story,
+  .team {
+    padding-top: 30px;
+  }
+
+  .story {
+    min-height: 400px;
+  }
+
+  .offer p {
+    font-size: 1rem;
+  }
+
+  .info {
+    padding: 0;
+    font-size: 0.95rem;
+  }
+
+  .text {
+    padding: 12px 0;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 1);
+    border: none;
+    z-index: 1;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #111;
+    padding: 20px 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #00FF7F;
+  }
+
+  .top-btn {
+  color: #fff;
+  background-color: #00FF7F;
+  border-color: #00FF7F;;
+  }
+
+  .offers {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  #footer-logo {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .middle {
+    border-right: 2px solid #00FF7F;
+  }
+
+  .bottom-details {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding-top: 30px;
+  }
+}
+
+/* On smaller screens, decrease text size for slideshow*/
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
