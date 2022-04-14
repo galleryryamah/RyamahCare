@@ -134,7 +134,7 @@ header {
   background-image: url("../images/index/fix.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   width: 100%;
   min-height: 250px;
   position: relative;
